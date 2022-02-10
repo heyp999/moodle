@@ -5,5 +5,4 @@
 # git add "filename" (or directory name)
 # git commit -m "modify index.html file" -a
 # git push -u origin main
-#
 # git pull
