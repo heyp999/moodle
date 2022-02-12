@@ -12,5 +12,7 @@ browser = webdriver.Chrome( options=option)
 browser.get('http://www.baidu.com/')
 # 打印标题
 print(browser.title)
+browser.get('http://52.39.5.126/')
+print(browser.title)
 # 关闭浏览器
 browser.quit()
