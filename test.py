@@ -13,7 +13,7 @@ browser.get('http://www.baidu.com/')
 # 打印标题
 print(browser.title)
 # 访问google
-browser.get('https://github.com/heyp999/moodle')
+browser.get('https://www.canadianctb.ca/')
 print(browser.title)
 # 关闭浏览器
 browser.quit()
