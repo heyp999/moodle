@@ -12,8 +12,5 @@ browser = webdriver.Chrome( options=option)
 browser.get('http://www.baidu.com/')
 # 打印标题
 print(browser.title)
-# 访问google
-browser.get('https://www.sina.com.cn/')
-print(browser.title)
 # 关闭浏览器
 browser.quit()
