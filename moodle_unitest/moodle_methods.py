@@ -8,10 +8,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
-# s = Service(executable_path='./chromedriver')
-# driver = webdriver.Chrome(service=s)
-driver = webdriver.Chrome()
 
+option = webdriver.ChromeOptions()
+option.add_argument('headless')
+option.add_argument('no-sandbox')
+option.add_argument('disable-dev-shm-usage')
+driver = webdriver.Chrome( options=option)
 
 # Fixture method - to open web browser
 def setUp():
