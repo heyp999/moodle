@@ -17,5 +17,4 @@ print(browser.title)
 # 关闭浏览器
 browser.quit()
 print("End")
-- print("End")
-+ df = ak.stock_zh_a_daily(symbol=symbol, start_date=start_date, end_date=end_date, adjust="qfq")
+
