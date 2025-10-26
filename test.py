@@ -16,3 +16,4 @@ browser.get('http://52.39.5.126/')
 print(browser.title)
 # 关闭浏览器
 browser.quit()
+print("End")
